@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon propre visualiseur de données géospatiales avec OpenLayers</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v10.4.0/ol.css">
+    <script src="https://cdn.jsdelivr.net/npm/ol@v10.4.0/dist/ol.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mon propre visualiseur de données géospatiales avec OpenLayers</h1>
+   
+
+    <div class="container">
+        <!-- Carte -->
+        <div id="map"></div>
+
+        <!-- Section à droite : Logo + Légende -->
+        <div class="sidebar">
+           
+            <h2>Légende</h2>
+            <ul>
+                <li><span class="color-box" style="background: blue;"></span> Océan Atlantique</li>
+                <li><span class="color-box" style="background: #ff0000; border: 1px solid black;"></span> Limites des provinces</li>
+                <li><span class="color-box" style="background: #000000; border: 2px solid black;"></span> Limites des régions</li>
+                <li><span class="color-box" style="background: lightgray;"></span> Zones urbaines</li>
+                <li><span class="color-box" style="background: #008000;"></span> Zones rurales et forêts</li>
+            </ul>
+            <h2>Logo</h2>
+            <img src="EHTP (1).webp" alt="Logo" class="logo">
+            <h2>Auteur</h2>
+            <p>Fatima Ezzahra IDBELLA</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
