@@ -13,9 +13,9 @@ This project is a Web GIS application using the OpenLayers API to display and in
 
 ## 📂 Project Structure  
 📁 openlayers-project ├── 📄 index.html # Main page containing the map
-├── 📄 style.css # Stylesheet for layout
-├── 📄 script.js # Main script for handling the map
-├── 📄 README.md # Project documentation
+- ├── 📄 style.css # Stylesheet for layout
+- ├── 📄 script.js # Main script for handling the map
+- ├── 📄 README.md # Project documentation
 
 
 ## 🛠️ Technologies Used  
